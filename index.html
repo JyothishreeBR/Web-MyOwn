@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      font-weight: bold;
+    }
+    *{
+      background-color:plum;
+    }
+    button{
+      font-size: 20px;
+      border-radius: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">Sign in / Sign up Form </h1>
+   <form>
+    <div style="text-align:center;">
+      Name :    <input type="text" name="name" placeholder="Eneter you name">
+      <br /><br>
+    DOB : <input type="date" id="dob" name="dob"><br><br>
+      Email :   <input type="email" id="email" name="email" placeholder="abcd@gmail.com">
+      <br /><br>
+      Password: <input type="password" placeholder="password">
+      <br /><br>
+     Contact-No:<input type="tel" placeholder="+91"><br>
+     <br />
+     Country:<input type="text" placeholder="country"><br><br>
+  Gender:   <input type="radio" name="gender" value="Male">Male
+              <input type="radio" name="gender" value="Female">Female <br>
+      <br />
+     Choose your location
+      <select id="city">
+        <option value="" disabled selected hidden>choose</option>
+        <option value="Bengaluru">Bengaluru</option>
+        <option value="Mysuru">Mysuru</option>
+        <option value="Shivamogga">Shivamogga</option>
+        <option value="Varangal">Varangal</option>
+      </select><br><br />
+      Education:
+      <input type="radio" name="education" value="Graduate">Graduate
+      <input type="radio" name="education" value="PostGraduate">Post-Graduate<br><br>
+      <button style="background-color: blue;">Submit</button>
+    </div>
+   </form>
+</body>
+</html> 
