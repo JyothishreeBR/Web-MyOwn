@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Communication Assessment</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #ffffff, #eaeaea);
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .com {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      margin: 0.5rem auto;
+      padding: 0.9rem 1.5rem;
+      font-size: 1rem;
+      background: #6b54f1;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left,
+.nav-center,
+.nav-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-left {
+  justify-content: flex-start;
+  font-weight: 800;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: #6b54f1;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #ece8ff;
+}
+
+
+    #quiz-container {
+      background: #f9f9f9;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+     h3 {
+      text-align: center;
+      margin: 2rem 0 1rem;
+      color: #6b54f1;
+      font-size: 1.7rem;
+    }
+
+    .question {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .option-btn {
+      padding: 12px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #5b7cfa;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .option-btn:hover {
+      background-color: #3e5ee0;
+    }
+
+    .bubble {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      border-radius: 50%;
+      background-color: #ccc;
+      color: white;
+      text-align: center;
+      margin: 5px;
+      font-size: 0.9rem;
+    }
+
+    .bubble.active {
+      background-color: #5b7cfa;
+    }
+
+    #bubble-tracker {
+      text-align: right;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    #completionMessage {
+      display: none;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .continue-btn {
+      margin-top: 20px;
+      background-color: #28a745 !important;
+    }
+.selected-option {
+  background-color: #3b82f6 !important; /* Blue */
+  color: #fff !important;
+  border: 2px solid #2c60d3;
+  transform: scale(1.05);
+}
+
+  </style>
+  
+   <script src="{{ url_for('static', filename='js/communication.js') }}"></script>
+</head>
+<body>
+
+   <nav>
+  <div class="nav-left">
+    <div class="logo">CampusFit 🎓</div>
+  </div>
+
+  <div class="nav-center">
+    <a href="/dashboard" class="nav-link">Dashboard</a>
+  </div>
+
+  <div class="nav-right bubble-tracker" id="bubble-tracker"></div>
+</nav>
+
+ <h3>Verbal Round</h3>
+
+  <div id="quiz-container">
+    <h2 id="question-number">Question</h2>
+    <p class="question" id="question-text">Loading question...</p>
+    <div class="options">
+      <button class="option-btn" id="option-A">Option A</button>
+      <button class="option-btn" id="option-B">Option B</button>
+      <button class="option-btn" id="option-C">Option C</button>
+      <button class="option-btn" id="option-D">Option D</button>
+    </div>
+    <div id="bubble-tracker"></div>
+  </div>
+
+  <div id="completionMessage">
+    <h2>Communication Assessment Completed!</h2>
+  <button class="com continue-btn" onclick="submitCommunication()">
+   Continue to Technical Assessment
+  </button>
+  </div>
+
+  
+
+<section style="max-width: 700px; margin: 40px auto; padding: 20px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <h3 style="text-align: center; color: #5b7cfa;">Why Communication Skills Matter?</h3>
+  <ul style="list-style: disc; padding-left: 20px; color: #444;">
+    <li>Enhances your interview confidence</li>
+    <li>Improves team collaboration and leadership</li>
+    <li>Helps you build stronger professional relationships</li>
+    <li>Boosts your chances in campus placements</li>
+  </ul>
+</section>
+
+<section style="max-width: 700px; margin: 40px auto; padding: 20px; background: #f5f5f5; border-radius: 12px;">
+  <h3 style="text-align: center; color: #5b7cfa;">Tips to Improve Communication Skills</h3>
+  <ol style="color: #444; line-height: 1.6;">
+    <li>Practice speaking in front of a mirror or with friends.</li>
+    <li>Read books, articles, or newspapers to build vocabulary.</li>
+    <li>Watch TED Talks and observe body language and tone.</li>
+    <li>Record yourself answering common interview questions.</li>
+    <li>Join clubs or groups where you can practice public speaking.</li>
+  </ol>
+</section>
+
+</body>
+</html>

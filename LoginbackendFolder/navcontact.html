@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | PrepMate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #333;
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2.2rem;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 3rem auto;
+      padding: 2rem 2.5rem;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+      color: #6a11cb;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #444;
+    }
+
+    .contact-methods {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .method {
+      background: #ffffffd9;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 6px 18px rgba(102, 126, 234, 0.2);
+    }
+
+    .method h3 {
+      margin-bottom: 0.5rem;
+      color: #444;
+    }
+
+    .method a {
+      color: #6a11cb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .method a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .back-link:hover {
+      color: #6a11cb;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📬 Get in Touch with CampusFit</h1>
+    <p>We’d love to hear from you!</p>
+  </header>
+
+  <div class="container">
+    <h2>Contact Methods</h2>
+    <div class="contact-methods">
+      <div class="method">
+        <h3>📧 Email Support</h3>
+        <p>Reach us at <a href="mailto:support@prepmate.in">support@campusfit.in</a> for any queries, suggestions, or feedback.</p>
+      </div>
+
+      <div class="method">
+        <h3>🌐 Social Media</h3>
+        <p>Follow us and DM anytime:</p>
+        <ul>
+          <li><a href="https://linkedin.com" target="_blank">🔗 LinkedIn</a></li>
+          <li><a href="https://instagram.com" target="_blank">📸 Instagram</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <a href="{{ url_for('home') }}" class="back-link">← Back to Homepage</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,301 @@
+index;Question;Option A;Option B;Option C;Option D;Answer
+1;If the sum of three consecutive integers is 48 what is the smallest integer;15;16;17;18;1
+2;A shopkeeper sells an article at 10 percent profit if the cost price is 500 what is the selling price;550;520;525;530;3
+3;Find the next number in the series 3 9 27 81;243;162;324;180;1
+4;If the ratio of two numbers is 5 to 7 and their sum is 72 what is the smaller number;30;25;20;35;1
+5;A boat takes 2 hours to travel 30 km downstream and 3 hours upstream what is the speed of the boat in still water;7;8;9;10;2
+6;If the interest on a sum of money at 8 percent per annum for 3 years is 240 what is the principal amount;800;900;1000;1100;3
+7;Find the area of a circle with radius 7 cm;154;144;164;168;1
+8;If 5 persons can do a job in 12 days how many days will 3 persons take;20;18;15;25;1
+9;The price of a product is reduced by 20 percent if the new price is 240 what was the original price;300;320;280;260;1
+10;What is the remainder when 435 is divided by 7;2;3;1;4;3
+11;If a train of length 150 meters passes a pole in 15 seconds what is its speed in km/hr;30;36;40;45;2
+12;Find the sum of first 20 natural numbers;210;220;200;190;1
+13;If the average of five numbers is 12 and one number is 15 what is the average of remaining numbers;11;10;13;12;1
+14;What is the median of the set 3 7 8 9 12;7;8;9;10;1
+15;If the ratio of areas of two squares is 25 to 16 what is the ratio of their sides;5 to 4;25 to 16;4 to 5;16 to 25;1
+16;How many diagonals does a hexagon have;9;10;12;15;1
+17;If the speed of a car is increased by 20 percent how much time will it save in covering 240 km;20 min;25 min;30 min;35 min;3
+18;If the circumference of a circle is 44 cm what is the radius;7;6;8;5;1
+19;Find the value of x if 2x plus 3 equals 15;5;6;7;8;2
+20;If the sum of ages of two persons is 50 and the difference is 10 what are their ages;20 and 30;15 and 35;25 and 25;30 and 20;1
+21;What is 12 percent of 250;30;28;32;25;1
+22;If the simple interest on a sum for 3 years at 5 percent per annum is 150 what is the principal;800;900;1000;1100;3
+23;Find the next number in the series 10 20 40 80;100;160;140;120;2
+24;If a rectangle has length 15 and breadth 8 what is its perimeter;46;44;40;42;1
+25;What is the volume of a cube with edge 4 cm;64;48;32;16;1
+26;If the cost price of 15 items is equal to the selling price of 12 items what is the profit percent;25;20;15;10;1
+27;A train 120 meters long is running at a speed of 60 km/hr what is the time taken to pass a man standing near the track;7.2 sec;6.5 sec;5.5 sec;6 sec;4
+28;If 8 men can complete a work in 15 days how many days will 10 men take;12;13;14;15;1
+29;What is the compound interest on 1000 at 10 percent for 2 years;210;220;230;240;1
+30;If the probability of raining today is 0.4 what is the probability that it will not rain;0.6;0.5;0.4;0.3;1
+31;Find the LCM of 12 and 18;36;54;72;24;1
+32;If the ratio of two numbers is 4 to 5 and their difference is 9 what is the smaller number;20;24;18;16;3
+33;What is the area of a triangle with base 10 and height 12;60;65;70;55;1
+34;If the average of six numbers is 20 what is their sum;120;100;110;130;1
+35;How many edges does a cube have;8;10;12;14;3
+36;If a man covers a distance of 240 km in 4 hours what is his speed;60;50;70;80;1
+37;Find the next number in the series 7 14 28 56;64;70;112;84;3
+38;What is the square of 15;225;205;235;245;1
+39;If the price of an article is increased by 25 percent what is the new price of an article originally costing 400;450;500;525;475;3
+40;Find the difference between the largest and smallest prime numbers between 10 and 20;10;12;8;6;1
+41;If a car travels 150 km in 3 hours what is its speed in km/hr;45;50;55;60;2
+42;What is the next prime number after 31;33;37;39;35;2
+43;If a box contains 5 red balls and 7 blue balls what is the probability of picking a red ball;05-Dec;07-Dec;01-Feb;05-Jul;1
+44;What is the sum of angles in a pentagon;540;360;720;480;1
+45;If the cost price of an article is 600 and it is sold at 660 what is the profit percent;8;10;12;15;2
+46;Find the square root of 225;15;14;16;13;1
+47;If 3x plus 5 equals 20 what is x;5;6;7;8;1
+48;What is the median of the set 4 6 8 10 12;8;6;10;12;1
+49;If the length of a rectangle is doubled and the breadth is halved what happens to the area;Remains same;Doubles;Halves;Triples;1
+50;What is the total surface area of a cube with side 6 cm;216;144;180;196;1
+51;If 60 percent of a number is 120 what is the number;180;200;240;220;2
+52;Find the HCF of 24 and 36;6;12;18;24;2
+53;If a man saves 25 percent of his income and his expenses are 900 what is his income;1200;1100;1000;1300;1
+54;What is the value of pi approximately;3.14;3.15;3.16;3.17;1
+55;If a circle has diameter 14 cm what is its area;154;138;165;172;1
+56;Find the next number in the series 1 4 9 16 25;30;36;35;49;2
+57;If the speed of a train is 54 km/hr what is its speed in m/sec;15;18;20;22;2
+58;What is the perimeter of an equilateral triangle with side 9 cm;27;24;30;25;1
+59;If a number is decreased by 15 percent what is the new value of 200;170;180;185;175;2
+60;What is the factorial of 5;120;100;150;110;1
+61;Find the area of a parallelogram with base 12 and height 8;96;98;100;90;1
+62;If a car covers 150 km in 3 hours what is its average speed in m/sec;13.8;14;15;16;1
+63;What is the next number in the series 2 5 10 17 26;33;34;35;36;2
+64;If the ratio of boys to girls in a class is 7 to 8 and there are 30 girls how many boys are there;26;25;28;27;3
+65;Find the volume of a cylinder with radius 3 cm and height 10 cm;282;285;290;275;1
+66;If the simple interest on a sum is 450 at 9 percent per annum for 5 years what is the principal;1000;900;1100;1200;1
+67;What is the next prime number after 47;49;51;53;55;3
+68;If a bag contains 3 red balls 5 blue balls and 2 green balls what is the probability of picking a green ball;01-May;01-Jun;01-Jul;01-Aug;2
+69;What is the next number in the series 5 11 17 23 29;31;35;37;33;1
+70;If the circumference of a circle is 31.4 cm what is the diameter;10;9;11;12;1
+71;Find the square of 18;324;326;320;330;1
+72;If the cost price of 20 articles is equal to the selling price of 25 articles what is the profit percentage;20;25;30;35;2
+73;What is the angle between the hour and minute hand at 3 o’clock;90;80;100;110;1
+74;If the average of four numbers is 15 and one number is 18 what is the average of the remaining three;14;13;12;11;1
+75;Find the LCM of 8 12 and 18;72;76;68;80;1
+76;What is the difference between the largest and smallest 3 digit numbers formed by digits 4 5 and 6;462;486;420;426;2
+77;If the sum of ages of two people is 60 and one is 10 years older what are their ages;25 and 35;24 and 36;23 and 37;22 and 38;1
+78;Find the next number in the series 1 3 6 10 15;20;21;18;22;2
+79;If the speed of a boat in still water is 15 km/hr and speed of stream is 5 km/hr what is the speed downstream;20;15;25;10;1
+80;What is the total surface area of a sphere with radius 7 cm;616;648;630;600;1
+81;If the length of a rectangle is 12 cm and width is 7 cm what is the area;84;82;88;80;1
+82;Find the median of the numbers 10 15 20 25 30;20;15;25;10;1
+83;If the sum of three angles of a quadrilateral is 270 what is the fourth angle;90;80;100;85;1
+84;What is 40 percent of 90;38;36;34;32;2
+85;If a man spends 75 percent of his income and saves 1500 what is his income;6000;6500;7000;5500;1
+86;Find the cube of 4;64;68;60;70;1
+87;If the probability of winning a game is 0.3 what is the probability of losing;0.7;0.6;0.5;0.8;1
+88;What is the next number in the series 4 7 10 13 16;18;20;22;19;2
+89;If a clock shows 9 oclock what is the angle between hour and minute hands;90;95;85;100;1
+90;Find the HCF of 36 and 48;12;18;24;20;1
+91;What is the average of the first 10 natural numbers;5;5.5;6;6.5;2
+92;If the cost price of a pen is 10 and it is sold at 12 what is the profit percentage;15;18;20;22;3
+93;What is the perimeter of a square with side 8 cm;32;30;34;28;1
+94;If the ratio of lengths of two rectangles is 3 to 4 and breadth is same what is the ratio of their areas;9 to 16;3 to 4;4 to 3;7 to 9;1
+95;Find the value of x if 3x minus 4 equals 11;5;6;7;8;3
+96;What is the next number in the series 2 6 12 20 30;40;42;45;38;1
+97;If the sum of digits of a two-digit number is 9 and the difference between digits is 3 what is the number;63;36;54;45;1
+98;Find the value of 5 factorial;120;100;130;150;1
+99;If the volume of a cuboid is 240 and base area is 30 what is its height;8;9;7;10;1
+100;What is the area of an equilateral triangle with side 6 cm;9 root 3;8 root 3;7 root 3;6 root 3;1
+101;There are two examination rooms A and B. If 10 students are sent from A to B, then the number of students in each room is the same. If 20 candidates are sent from B to A, then the number of students in A is double the number of students in B. The number of students in room A is:;20;80;100;200;C
+102;The price of commodity X increases by 40 paise every year, while the price of commodity Y increases by 15 paise every year. If in 2001, the price of commodity X was Rs. 4.20 and that of Y was Rs. 6.30, in which year will commodity X cost 40 paise more than commodity Y?;2010;2011;2012;2013;B
+103;If a - b = 3 and a² + b² = 29, find the value of ab.;10;12;15;18;A
+104;The salaries A, B, and C are in the ratio 2:3:5. If increments of 15%, 10%, and 20% are allowed in their salaries, then what will be the new ratio of their salaries?;03:03:10;10:11:20;0.981944444;Cannot be determined;C
+105;A and B entered into a partnership with capitals in the ratio 4:5. After 3 months, A withdrew some capital and B withdrew some of his capital. The gain at the end of 10 months was Rs. 760. A's share in the profit is:;Rs. 330;Rs. 360;Rs. 380;Rs. 430;A
+106;What is R's share of profit in a joint venture? I. Q started business investing Rs. 80,000. II. R joined him after 3 months. III. P joined after 4 months with a capital of Rs. 1,20,000 and got Rs. 6000 as his share profit.;All I, II, and III;I and III only;II and III only;Even with all I, II, and III, the answer cannot be arrived at;D
+107;A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for Rs. 3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?;Rs. 375;Rs. 400;Rs. 600;Rs. 800;B
+108;A goods train runs at the speed of 72 kmph and crosses a 250 m long platform in 26 seconds. What is the length of the goods train?;230 m;240 m;260 m;270 m;D
+109;If log10 2 = 0.3010, then log2 10 is equal to:;699;1000;0.301;0.699;B
+110;An error of 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area of the square is:;2%;2.02%;4%;4.04%;D
+111;In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:;75 cu. m;750 cu. m;7500 cu. m;75000 cu. m;B
+112;What is the volume of a cube? I. The area of each face of the cube is 64 square metres. II. The length of one side of the cube is 8 metres.;I alone sufficient while II alone not sufficient;II alone sufficient while I alone not sufficient;Either I or II alone sufficient to answer;Both I and II are not sufficient;C
+113;The reflex angle between the hands of a clock at 10:25 is:;180º;192.5º;195º;197.5º;D
+114;At what time between 4 and 5 o'clock will the hands of a watch point in opposite directions?;45 min past 4;40 min past 4;50.4 min past 4;54.6 min past 4;D
+115;A 12% stock yielding 10% is quoted at:;Rs. 83.33;Rs. 110;Rs. 112;Rs. 120;D
+116;In how many different ways can the letters of the word 'DETAIL' be arranged in such a way that the vowels occupy only the odd positions?;32;48;36;60;C
+117;An observer 1.6 m tall is 203 m away from a tower. The angle of elevation from his eye to the top of the tower is 30º. The height of the tower is:;21.6 m;23.2 m;24.72 m;None of these;A
+118;Find the odd one out: 1, 4, 9, 16, 23, 25, 36;9;23;25;36;B
+119;Let N be the greatest number that will divide 1305, 4665, and 6905, leaving the same remainder in each case. The sum of the digits in N is:;4;5;6;8;A
+120;The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?;76 kg;76.5 kg;85 kg;Data inadequate;C
+121;The difference between a two-digit number and the number obtained by interchanging the digits is 36. What is the difference between the sum and the difference of the digits of the number if the ratio between the digits of the number is 1:2?;4;8;16;None of these;B
+122;The sum of the present ages of a father and his son is 60 years. Six years ago, the father's age was five times the son's age. After 6 years, the son's age will be:;12 years;14 years;18 years;20 years;D
+123;Three candidates contested an election and received 1136, 7636, and 11628 votes, respectively. What percentage of the total votes did the winning candidate get?;57%;60%;65%;90%;A
+124;In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?;30%;70%;100%;250%;B
+125;If the cost of x meters of wire is d rupees, then what is the cost of y meters of wire at the same rate?;Rs. (xy/d);Rs. (xd);Rs. (yd);Rs. (yd/x);D
+126;A flagstaff 17.5 m high casts a shadow of length 40.25 m. The height of a building, which casts a shadow of length 28.75 m under similar conditions, will be:;10 m;12.5 m;17.5 m;21.25 m;B
+127;In how many days can 10 women finish a work? I. 10 men can complete the work in 6 days. II. 10 men and 10 women together can complete the work in 3 3/7 days. III. If 10 men work for 3 days and then 10 women replace them, the remaining work is completed in 4 days.;Any two of the three;I and II only;II and III only;I and III only;A
+128;8 men and 14 women are working together in a field. After 3 days, 5 men and 8 women leave. How many more days will be required to complete the work? I. 19 men and 12 women together can complete the work in 18 days. II. 16 men can complete two-thirds of the work in 16 days. III. In 1 day, the work done by three men is equal to the work done by four women.;I only;II only;III only;I, II, or III;D
+129;A towel, when bleached, was found to have lost 20% of its length and 10% of its breadth. The percentage decrease in area is:;10%;10.08%;20%;28%;D
+130;What is the capacity of a cylindrical tank? I. Radius of the base is half of its height which is 28 metres. II. Area of the base is 616 sq. metres and its height is 28 metres.;I alone sufficient while II alone not sufficient;II alone sufficient while I alone not sufficient;Either I or II alone sufficient to answer;Both I and II are not sufficient;C
+131;In a 100 m race, A covers the distance in 36 seconds and B in 45 seconds. In this race, A beats B by:;20 m;25 m;22.5 m;9 m;A
+132;A 6% stock yields 8%. The market value of the stock is:;Rs. 48;Rs. 75;Rs. 96;Rs. 133.33;B
+133;A box contains 2 white balls, 3 black balls, and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one black ball is to be included in the draw?;32;48;64;96;C
+134;If Rs. 10 is allowed as true discount on a bill of Rs. 110 due at the end of a certain time, then the discount allowed on the same sum due at the end of double the time is:;Rs. 20;Rs. 21.81;Rs. 22;Rs. 18.33;D
+135;10, 14, 16, 18, 21, 24, 26 – find the odd one out.;26;24;21;18;C
+136;835, 734, 642, 751, 853, 981, 532 – find the odd one out.;751;853;981;532;A
+137;1, 2, 6, 15, 31, 56, 91 – find the wrong number in the sequence.;31;91;56;15;B
+138;7, 26, 63, 124, 215, 342 – find the next number in the series.;481;511;391;421;B
+139;Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:;1:3;3:2;3:4;None of these;B
+140;A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr, and the other at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train if both the persons are walking in the same direction as the train?;66 km/hr;72 km/hr;78 km/hr;81 km/hr;D
+141;A runs 1.5 times as fast as B. If A gives B a start of 80 m, how far must the winning post be so that A and B might reach it at the same time?;200 m;300 m;270 m;160 m;A
+142;Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years, what is definitely the difference between R and Q's age?;1 year;2 years;25 years;Data inadequate;D
+143;The value of log2 16 is:;1/8;4;8;16;B
+144;In a two-digit number, it is known that its unit’s digit exceeds its ten’s digit by 2 and that the product of the given number and the sum of its digits is equal to 144. The number is:;24;26;42;46;A
+145;The square root of 64009 is:;253;347;363;803;A
+146;What should come in place of both 'x' in the equation x/128 = 162/x?;12;14;144;196;A
+147;A, B, and C can do a piece of work in 20, 30, and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?;12 days;15 days;16 days;18 days;B
+148;The value of 489.1375 × 0.0483 × 1.956 is closest to:;0.006;0.06;0.6;6;B
+149;Three numbers are in the ratio of 3:4:5, and their LCM is 2400. Their HCF is:;40;80;120;200;A
+150;Which of the following fractions is the largest?;7/8;13/16;31/40;63/80;A
+151;A sum of Rs. 725 is lent at the beginning of a year at a certain rate of interest. After 8 months, a sum of Rs. 362.50 more is lent, but at double the previous rate. At the end of the year, Rs. 33.50 is earned as interest from both loans. What was the original rate of interest?;3.60%;4.50%;5%;None of these;D
+152;An accurate clock shows 8 o'clock in the morning. Through how many degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?;144º;150º;168º;180º;D
+153;From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are on the committee. In how many ways can it be done?;564;645;735;756;D
+154;A dishonest milkman professes to sell his milk at cost price but he mixes it with water and thereby gains 25%. The percentage of water in the mixture is:;4%;6%;20%;25%;C
+155;A vessel is filled with liquid, 3 parts of which are water and 5 parts syrup. How much of the mixture must be drawn off and replaced with water so that the mixture may be half water and half syrup?;1/3;1/4;1/5;1/6;C
+156;The cost price of Rs. 100 stock at 4% discount, when brokerage is 1/4%, is:;Rs. 95.75;Rs. 96;Rs. 96.25;Rs. 104.25;C
+157;If 40% of a number is equal to two-third of another number, what is the ratio of the first number to the second number?;02:05;03:07;05:03;07:03;C
+158;In a bag, there are coins of 25 p, 10 p, and 5 p in the ratio of 1 : 2 : 3. If there is Rs. 30 in all, how many 5 p coins are there?;50;100;150;200;C
+159;A man takes loan from a bank at 12% p.a. simple interest. After 3 years, he paid Rs. 5400 as interest. What was the principal amount?;Rs. 2000;Rs. 10,000;Rs. 15,000;Rs. 20,000;C
+160;A flagstaff 17.5 m high casts a shadow 40.25 m long. What is the height of a building that casts a shadow 28.75 m long under similar conditions?;10 m;12.5 m;17.5 m;21.25 m;B
+161;The reflex angle between the hands of a clock at 10:25 is:;180º;192 ½º;195º;197 ½º;D
+162;The diagonal of a rectangle is 41 cm, and its area is 20 cm². What is the perimeter of the rectangle?;9 cm;18 cm;20 cm;41 cm;B
+163;A, B, and C can complete a task in 24, 6, and 12 days respectively. How many days will they take to finish the task if working together?;1 day;7/24 day;3 3/7 days;4 days;C
+164;A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr, and the other one at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train?;66 km/hr;72 km/hr;78 km/hr;81 km/hr;D
+165;A train of 240 meters long passes a pole in 24 seconds. How long will it take to pass a platform 650 meters long?;65 sec;89 sec;100 sec;150 sec;B
+166;How many seconds will a 500-meter-long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?;25 sec;30 sec;40 sec;45 sec;B
+167;In a 500 m race, the ratio of the speeds of two contestants A and B is 3 : 4. A has a start of 140 m. Then, A wins by:;60 m;40 m;20 m;10 m;C
+168;A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?;40 minutes;1 hour;1 hr 15 min;1 hr 30 min;C
+169;Two goods trains each 500 m long are running in opposite directions on parallel tracks at 45 km/hr and 30 km/hr, respectively. The time taken by the slower train to pass the driver of the faster one is:;12 sec;24 sec;48 sec;60 sec;B
+170;A man sells two buffaloes for Rs. 7,820 each. On one he gains 15% and on the other, he loses 15%. His total gain or loss in the transaction is;2.5% gain;2.25% loss;2% loss;5% loss;B
+171;One ship goes along the stream direction 28 km and in opposite direction 13 km in 5 hrs for each direction. What is the velocity of the stream?;1.5 kmph;2.5 kmph;1.8 kmph;2 kmph;A
+172;Which one of the words given below is different from others?;Orange;Grape;Apricot;Raspberry;C
+173;Complete the series: 5, 20, 24, 6, 2, 8, ?;12;32;34;36;A
+174;A can have a piece of work done in 8 days, B can work three times faster than A, C can work five times faster than A. How many days will they take to do the work together?;3 days;8/9 days;4 days;None of the above;B
+175;A sum of Rs. 427 is to be divided among A, B, and C in such a way that 3 times A's share, 4 times B's share, and 7 times C's share are all equal. The share of C is;Rs. 84;Rs. 76;Rs. 98;Rs. 34;A
+176;In a race of 200 m, A can beat B by 31 m and C by 18 m. In a race of 350 m, C will beat B by;22.75 m;25 m;19.5 m;7;A
+177;A man took a loan from a bank at the rate of 12% p.a. simple interest. After 3 years, he had to pay Rs. 5400 as interest only for the period. The principal amount borrowed by him was;Rs. 2000;Rs. 10,000;Rs. 15,000;Rs. 20,000;C
+178;A man walked diagonally across a square lot. Approximately, what was the percent saved by not walking along the edges?;20%;24%;30%;33%;C
+179;How much time will the leak take to empty the full cistern? (I. The cistern is normally filled in 9 hours. II. It takes one hour more than usual to fill the cistern because of the leak.);I alone sufficient;II alone sufficient;Either I or II alone;Both I and II are necessary;D
+180;A metallic sheet is of rectangular shape with dimensions 48 m x 36 m. From each of its corners, a square is cut off to make an open box. If the length of the square is 8 m, the volume of the box is:;4830 m³;5120 m³;6420 m³;8960 m³;B
+181;A man takes loan from a bank at 12% p.a. simple interest. After 3 years, he paid Rs. 5400 as interest. What was the principal amount?;Rs. 2000;Rs. 10,000;Rs. 15,000;Rs. 20,000;C
+182;A flagstaff 17.5 m high casts a shadow 40.25 m long. What is the height of a building that casts a shadow 28.75 m long under similar conditions?;10 m;12.5 m;17.5 m;21.25 m;B
+183;The reflex angle between the hands of a clock at 10:25 is:;180º;192.5º;195º;197.5º;D
+184;The diagonal of a rectangle is 41 cm, and its area is 20 cm². What is the perimeter of the rectangle?;9 cm;18 cm;20 cm;41 cm;B
+185;A, B, and C can complete a task in 24, 6, and 12 days respectively. How many days will they take to finish the task if working together?;1 day;7/24 day;3 3/7 days;4 days;C
+186;Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively, and they cross each other in 23 seconds. The ratio of their speeds is:;1:3;3:2;3:4;None of these;B
+187;A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr, and the other one at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train?;66 km/hr;72 km/hr;78 km/hr;81 km/hr;D
+188;A train of 240 meters long passes a pole in 24 seconds. How long will it take to pass a platform 650 meters long?;65 sec;89 sec;100 sec;150 sec;B
+189;How many seconds will a 500-meter-long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?;25 sec;30 sec;40 sec;45 sec;B
+190;In a 500 m race, the ratio of the speeds of two contestants A and B is 3 : 4. A has a start of 140 m. Then, A wins by:;60 m;40 m;20 m;10 m;C
+191;The reflex angle between the hands of a clock at 10:25 is:;180º;192.5º;195º;197.5º;D
+192;The cost price of Rs. 100 stock at 4% discount, when brokerage is 1/4%, is:;Rs. 96;Rs. 96.25;Rs. 96.50;Rs. 97;C
+193;Three candidates contested an election and received 1136, 7636, and 11628 votes respectively. What percentage of the total votes did the winning candidate get?;57%;60%;65%;90%;A
+194;A man buys a watch for Rs. 1950 in cash and sells it for Rs. 2200 at a credit of 1 year. If the rate of interest is 10% per annum, the man:;gains Rs. 55;gains Rs. 50;loses Rs. 30;gains Rs. 30;B
+195;An error of 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area is:;2%;2.02%;4%;4.04%;D
+196;In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:;75 cu. m;750 cu. m;7500 cu. m;75000 cu. m;B
+197;The ratio between the length and breadth of a rectangular park is 3:2. If a man cycling along the boundary at 12 km/hr completes one round in 8 minutes, the area of the park is:;15360 sq. m;153600 sq. m;30720 sq. m;307200 sq. m;B
+198;The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface:;30 m²;40 m²;60 m²;80 m²;C
+199;If 40% of a number is equal to two-third of another number, what is the ratio of the first number to the second number?;02:05;03:07;05:03;07:03;C
+200;In a bag, there are coins of 25 p, 10 p, and 5 p in the ratio of 1 : 2 : 3. If there is Rs. 30 in all, how many 5 p coins are there?;50;100;150;200;C
+201;A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?;40 minutes;1 hour;1 hr 15 min;1 hr 30 min;C
+202;Two goods trains each 500 m long are running in opposite directions on parallel tracks at 45 km/hr and 30 km/hr, respectively. The time taken by the slower train to pass the driver of the faster one is:;12 sec;24 sec;48 sec;60 sec;B
+203;A man sells two buffaloes for Rs. 7,820 each. On one he gains 15% and on the other, he loses 15%. His total gain or loss in the transaction is:;2.5% gain;2.25% loss;2% loss;5% loss;B
+204;A metallic sheet is of rectangular shape with dimensions 48 m x 36 m. From each of its corners, a square is cut off to make an open box. If the length of the square is 8 m, the volume of the box is:;4830 m³;5120 m³;6420 m³;8960 m³;B
+205;The cost price of Rs. 100 stock at 4% discount, when brokerage is 1/4%, is:;Rs. 96;Rs. 96.25;Rs. 96.50;Rs. 97;C
+206;Three candidates contested an election and received 1136, 7636, and 11628 votes respectively. What percentage of the total votes did the winning candidate get?;57%;60%;65%;90%;A
+207;A man buys a watch for Rs. 1950 in cash and sells it for Rs. 2200 at a credit of 1 year. If the rate of interest is 10% per annum, the man:;gains Rs. 55;gains Rs. 50;loses Rs. 30;gains Rs. 30;B
+208;An error of 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area is:;2%;2.02%;4%;4.04%;D
+209;In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:;75 cu. m;750 cu. m;7500 cu. m;75000 cu. m;B
+210;The ratio between the length and breadth of a rectangular park is 3:2. If a man cycling along the boundary at 12 km/hr completes one round in 8 minutes, the area of the park is:;15360 sq. m;153600 sq. m;30720 sq. m;307200 sq. m;B
+211;The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface:;30 m²;40 m²;60 m²;80 m²;C
+212;A man wants to sell his scooter. There are two offers, one at Rs. 12,000 cash and the other a credit of Rs. 12,880 to be paid after 8 months, money being at 18% per annum. Which is the better offer?;Rs. 12,000 in cash;Rs. 12,880 at credit;Both are equally good;NIL;A
+213;A man standing at a point P is watching the top of a tower, which makes an angle of elevation of 30º with the man's eye. The man walks some distance towards the tower to watch its top and the angle of the elevation becomes 60º. What is the distance between the base of the tower and the point P?;43 units;8 units;12 units;Data inadequate;D
+214;In how many different ways can the letters of the word 'DETAIL' be arranged in such a way that the vowels occupy only the odd positions?;32;48;36;60;C
+215;Two dice are tossed. The probability that the total score is a prime number is:;1;5/12;1/2;7/9;B
+216;An observer 1.6 m tall is 203 m away from a tower. The angle of elevation from his eye to the top of the tower is 30º. The height of the tower is:;21.6 m;23.2 m;24.72 m;None of these;A
+217;The cost price of a Rs. 100 stock at 4% discount, when brokerage is 1/4%, is:;Rs. 95.75;Rs. 96;Rs. 96.25;Rs. 104.25;C
+218;If 40% of a number is equal to two-thirds of another number, what is the ratio of the first number to the second number?;2:5;3:7;5:3;7:3;C
+219;In a bag, there are coins of 25 p, 10 p, and 5 p in the ratio of 1:2:3. If there is Rs. 30 in all, how many 5 p coins are there?;50;100;150;200;C
+220;A fires 5 shots to B's 3, but A kills only once in 3 shots while B kills once in 2 shots. When B has missed 27 times, A has killed:;30 birds;60 birds;72 birds;90 birds;A
+221;A train covers a certain distance at a speed of 300 km/hr, and the same distance at 200 km/hr. Find the average speed of the train:;240 km/hr;225 km/hr;250 km/hr;275 km/hr;A
+222;Two students appeared at an examination. One of them secured 9 marks more than the other, and his marks were 56% of the sum of their marks. What are the marks obtained by them?;42, 33;42, 36;44, 33;44, 36;A
+223;Two trains are running in opposite directions at 60 km/hr and 90 km/hr. If the length of each train is 500 m, how long will it take for the trains to cross each other?;20 sec;25 sec;30 sec;35 sec;A
+224;A certain amount earns simple interest of Rs. 1200 after 10 years. Had the interest been 2% more, how much more interest would it have earned?;Rs. 25;None of these;Rs. 120;Cannot be determined;C
+225;A man took a loan from a bank at the rate of 8% p.a. simple interest. After 4 years he had to pay Rs. 6200 as interest only for the period. The principal amount borrowed by him was:;Rs. 17322;Rs. 20245;Rs. 18230;Rs. 19375;C
+226;A and B can do a piece of work in 45 days and 40 days, respectively. They began to work together, but A leaves after some days and B completes the remaining work in 23 days. After how many days did A leave?;9;11;12;15;A
+227;The sum of ages of 5 children born at intervals of 3 years each is 50 years. What is the age of the youngest child?;4 years;8 years;10 years;None of these;A
+228;"A father said to his son, ""I was as old as you are at the present at the time of your birth"". If the father's age is 38 years now, the son's age five years back was:";14 years;19 years;33 years;38 years;A
+229;A sum of Rs. 1360 has been divided among A, B, and C such that A gets 1/2 of what B gets, and B gets 1/3 of what C gets. B's share is:;Rs. 120;Rs. 160;Rs. 240;Rs. 300;C
+230;A man can swim downstream at 6 km/hr and upstream at 2 km/hr. His speed in still water is:;4 km/hr;2 km/hr;6 km/hr;1 km/hr;A
+231;Robert is traveling on his cycle and has calculated to reach point A at 2 P.M. if he travels at 10 kmph, he will reach there at 12 noon if he travels at 15 kmph. At what speed must he travel to reach A at 1 P.M.?;8 kmph;11 kmph;12 kmph;14 kmph;C
+232;A man rows to a place 48 km distant and comes back in 14 hours. He finds that he can row 4 km with the stream in the same time as 3 km against the stream. The rate of the stream is:;1 km/hr;1.5 km/hr;2 km/hr;2.5 km/hr;A
+233;In what ratio must a grocer mix two varieties of pulses costing Rs. 15 and Rs. 20 per kg respectively so as to get a mixture worth Rs. 16.50 per kg?;3:7;5:7;7:3;7:5;C
+234;A, B, and C can do a piece of work in 20, 30, and 60 days, respectively. In how many days can A do the work if he is assisted by B and C on every third day?;12 days;15 days;16 days;18 days;B
+235;Two trains are running at 40 km/hr and 20 km/hr respectively in the same direction. The fast train completely passes a man sitting in the slower train in 5 seconds. What is the length of the fast train?;23 m;27 m;29 m;50 m;B
+236;A train moves past a telegraph post and a bridge 264 m long in 8 seconds and 20 seconds respectively. What is the speed of the train?;69.5 km/hr;70 km/hr;79 km/hr;79.2 km/hr;D
+237;How many seconds will a 500-meter long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?;25;30;40;45;B
+238;The salaries of A, B, and C are in the ratio 2 : 3 : 5. If increments of 15%, 10%, and 20% are allowed respectively in their salaries, what will be the new ratio of their salaries?;3:3:10;10:11:20;23:33:60;Cannot be determined;C
+239;The sum of ages of 5 children born at intervals of 3 years each is 50 years. What is the age of the youngest child?;4 years;8 years;10 years;None of these;A
+240;A sum of Rs. 1360 has been divided among A, B, and C such that A gets 1/2 of what B gets, and B gets 1/3 of what C gets. B's share is:;Rs. 120;Rs. 160;Rs. 240;Rs. 300;C
+241;An error of 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area is:;2%;2.02%;4%;4.04%;D
+242;In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:;75 cu. m;750 cu. m;7500 cu. m;75000 cu. m;B
+243;The reflex angle between the hands of a clock at 10:25 is:;180º;192.5º;195º;197.5º;D
+244;Two goods trains each 500 m long are running in opposite directions on parallel tracks at 45 km/hr and 30 km/hr respectively. The time taken by the slower train to pass the driver of the faster one is:;12 sec;24 sec;48 sec;60 sec;B
+245;A metallic sheet is of rectangular shape with dimensions 48 m x 36 m. From each of its corners, a square is cut off to make an open box. If the length of the square is 8 m, the volume of the box is:;4830 m³;5120 m³;6420 m³;8960 m³;B
+246;A man sells two buffaloes for Rs. 7,820 each. On one he gains 15% and on the other, he loses 15%. His total gain or loss in the transaction is:;2.5% gain;2.25% loss;2% loss;5% loss;B
+247;A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr, and the other at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train?;66 km/hr;72 km/hr;78 km/hr;81 km/hr;D
+248;A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?;40 minutes;1 hour;1 hr 15 min;1 hr 30 min;C
+249;What is the volume of a 32-meter high cylindrical tank?;4928 m³;4820 m³;5040 m³;4600 m³;A
+250;A, B, and C subscribe Rs. 50,000 for a business. A subscribes Rs. 4000 more than B and B Rs. 5000 more than C. Out of a total profit of Rs. 35,000, A receives:;Rs. 8400;Rs. 11,900;Rs. 13,600;Rs. 14,700;D
+251;The present worth of Rs. 2310 due 2 years hence, the rate of interest being 15% per annum, is:;Rs. 1750;Rs. 1680;Rs. 1840;Rs. 1443.75;B
+252;The average age of husband, wife, and their child 3 years ago was 27 years, and that of the wife and the child 5 years ago was 20 years. The present age of the husband is:;35 years;40 years;50 years;None of these;B
+253;The price of 2 sarees and 4 shirts is Rs. 1600. With the same money, one can buy 1 saree and 6 shirts. If one wants to buy 12 shirts, how much shall he have to pay?;Rs. 1200;Rs. 2400;Rs. 4800;Cannot be determined;B
+254;A sum of Rs. 725 is lent in the beginning of a year at a certain rate of interest. After 8 months, a sum of Rs. 362.50 more is lent but at the rate twice the former. At the end of the year, Rs. 33.50 is earned as interest from both loans. What was the original rate of interest?;3.60%;4.50%;5%;6%;C
+255;The ratio between the length and breadth of a rectangular park is 3:2. If a man cycling along the boundary of the park at 12 km/hr completes one round in 8 minutes, the area of the park (in sq. m) is:;15360;153600;30720;307200;B
+256;The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface:;30 m²;40 m²;60 m²;80 m²;C
+257;A man wants to sell his scooter. There are two offers, one at Rs. 12,000 cash and the other a credit of Rs. 12,880 to be paid after 8 months, money being at 18% per annum. Which is the better offer?;Rs. 12,000 in cash;Rs. 12,880 at credit;Both are equally good;Neither is good;A
+258;If log10 2 = 0.3010, then log2 10 is equal to:;0.301;0.699;0.301;1.301;B
+259;The product of two numbers is 120, and the sum of their squares is 289. The sum of the numbers is:;20;23;169;None of these;B
+260;The banker's discount of a certain sum of money is Rs. 72 and the true discount on the same sum for the same time is Rs. 60. The sum due is:;Rs. 360;Rs. 432;Rs. 540;Rs. 1080;A
+261;A train running at 60 km/hr crosses a pole in 9 seconds. What is the length of the train?;120 m;180 m;150 m;540 m;C
+262;The average of five numbers is 27. If one number is excluded, the average becomes 25. What is the excluded number?;25;30;35;40;C
+263;A man can do a piece of work in 5 days. With the help of a boy, he can do it in 3 days. In how many days can the boy alone do the work?;7.5 days;8 days;7 days;5 days;A
+264;The difference between simple interest and compound interest on ₹1200 for one year at 10% per annum is:;₹12;₹6;₹18;₹24;B
+265;If 3 pens cost as much as 4 pencils, and 5 pencils cost as much as 2 erasers, how many pens cost as much as 4 erasers?;10;12;16;8;C
+266;Two numbers are in the ratio 3:4. If their LCM is 84, what is the greater number?;28;32;36;48;D
+267;The perimeter of a rectangle is 60 cm. If its length is twice its breadth, what is the length?;10 cm;15 cm;20 cm;25 cm;C
+268;The sum of present ages of a father and his son is 60 years. Five years ago, the father's age was four times the son's age. What is the present age of the son?;10;15;20;25;B
+269;A person sells an article at a 10% loss. If he had sold it for ₹40 more, he would have gained 10%. Find the cost price.;₹150;₹200;₹250;₹300;B
+270;What is the least number which when divided by 12, 18, 36 and 45 leaves a remainder 8 in each case?;368;3688;728;7288;C
+271;A can do a piece of work in 10 days, and B in 15 days. They work together for 5 days. How much work is left?;1/4;1/2;1/3;1/5;A
+272;Find the missing term in the series: 2, 6, 12, 20, ?, 42;28;30;32;34;C
+273;The area of a circle is 616 cm². What is its diameter?;14 cm;28 cm;20 cm;30 cm;B
+274;If the selling price of an article is ₹480 and the profit earned is 20%, find the cost price.;₹400;₹450;₹500;₹550;A
+275;The ratio of ages of A and B is 4:5. After 8 years, the ratio becomes 5:6. What is the present age of A?;32;40;48;36;A
+276;If x² - 7x + 12 = 0, find the value of x.;3 and 4;4 and 5;2 and 6;3 and 5;A
+277;The average marks of 30 students is 45. Later, it was found that one mark was wrongly entered as 75 instead of 45. Find the correct average.;44;43;44.5;45.5;A
+278;A man can row 8 km/hr in still water. If the river is running at 2 km/hr, it takes him 2 hours to row to a place and back. How far is the place?;14 km;15 km;16 km;18 km;C
+279;A fruit seller buys 240 oranges at ₹10 a dozen. He sells them at ₹5 for 3 oranges. Find his gain or loss percent.;10% gain;20% gain;10% loss;20% loss;B
+280;Find the HCF of 60, 72 and 108.;6;12;18;24;C
+281;What is the probability of getting a head when a coin is tossed?;0;1;1/2;1/3;C
+282;What will come in place of the question mark? 8, 24, 12, 36, 18, ?;48;54;60;30;B
+283;A mixture contains milk and water in the ratio 5:1. How much water should be added to 12 liters of the mixture to make the ratio 3:1?;1 liter;1.5 liters;2 liters;3 liters;B
+284;A man invested ₹5000 at 5% per annum simple interest. Find the interest earned in 3 years.;₹500;₹750;₹800;₹600;B
+285;If the perimeter of a square is 48 cm, find its area.;144 cm²;121 cm²;100 cm²;64 cm²;A
+286;The sum of two numbers is 80 and their difference is 20. What is the larger number?;30;40;50;60;C
+287;The population of a town increases by 10% annually. If it is 20000 now, what will be the population after 2 years?;22000;24200;24000;25000;B
+288;In a school, 60% of students are boys. If the number of girls is 800, find the total number of students.;1800;2000;2200;2400;B
+289;A shopkeeper buys a pen for ₹10 and sells it for ₹12.50. What is his profit percentage?;10%;20%;25%;30%;C
+290;Find the compound interest on ₹10000 at 10% per annum for 2 years.;₹1000;₹2000;₹2100;₹2200;C
+291;If 5x – 3 = 2x + 12, then x = ?;4;5;6;7;D
+292;Find the next number in the series: 5, 11, 23, 47, ?;95;93;91;89;A
+293;The sum of angles in a triangle is always;90°;180°;360°;270°;B
+294;Speed = Distance / Time. If a car covers 180 km in 3 hours, what is its speed?;50 km/hr;60 km/hr;70 km/hr;80 km/hr;B
+295;How many prime numbers are there between 1 and 20?;7;8;9;10;B
+296;The square root of 625 is:;15;20;25;30;C
+297;In an exam, a student scores 25 out of 50. What is the percentage?;25%;40%;50%;60%;C
+298;If x + y = 10 and x – y = 4, find the value of x.;3;5;7;6;D
+299;What is the smallest odd prime number?;1;2;3;5;C
+300;How many sides does a hexagon have?;5;6;7;8;B

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PrepMate | Placement Readiness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+      color: #2d2d2d;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.9);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #6a11cb;
+    }
+
+    .container {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .hero {
+      background: rgba(255, 255, 255, 0.3);
+      padding: 3rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(12px);
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: white;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    a.button:hover {
+      background: linear-gradient(90deg, #5a67d8, #6b46c1);
+      transform: translateY(-3px);
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #222;
+      margin: 4rem 0 2rem;
+      font-weight: 600;
+    }
+
+    .card-grid, .info-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0 2rem;
+    }
+
+    .card, .info-card {
+      background: white;
+      border-radius: 1rem;
+      padding: 2rem;
+      max-width: 300px;
+      flex: 1 1 260px;
+      text-align: left;
+      color: #2d2d2d;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 0 transparent;
+    }
+
+    .card:hover, .info-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+    }
+
+    .card h3, .info-card h3 {
+      color: #6a11cb;
+      margin-bottom: 0.8rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f0f0f0;
+      color: #777;
+      margin-top: 4rem;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-out;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div style="font-weight: bold; font-size: 1.2rem;">CampusFit🎓</div>
+    <div>
+      <a href="#howitworks">How It Works</a>
+      <a href="#dashboard">Dashboard</a>
+      
+
+      <a href="http://127.0.0.1:5000/">Login</a><!--http://127.0.0.1:5000/-->
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="container">
+    <div class="hero fade-in">
+      <h1>Welcome to CampusFit</h1>
+      <h2>Placement Readiness</h2>
+      <p>Uncover your true potential. Identify your strengths, sharpen your skills, and find your ideal placement path with smart ML insights.</p>
+      <a class="button" href="http://127.0.0.1:5000/">🚀 Get Started</a>
+    </div>
+  </div>
+
+  <!-- How It Works Section -->
+  <section class="info-section fade-in" id="howitworks" aria-label="How It Works">
+    <h2 class="section-title">🛠️ How It Works</h2>
+    <div class="info-grid">
+      <a href="{{ url_for('navAbout') }}" style="text-decoration: none;">
+      <article class="info-card">
+        <h3>📘 About</h3>
+        <p>Get to know PrepMate's mission to help students confidently face campus placements with personalized analysis.</p>
+      </article>
+     </a>
+     <a href="{{ url_for('navFeatures') }}" style="text-decoration: none;">
+      <article class="info-card">
+        <h3>✨ Features</h3>
+        <p>Enjoy intelligent assessment, resume analysis, aptitude + coding tests, and actionable suggestions to level up.</p>
+      </article>
+      </a>
+      <a href="{{ url_for('navContact') }}" style="text-decoration: none;">
+      <article class="info-card">
+        <h3>📬 Contact</h3>
+        <p>Reach out anytime via support@prepmate.in or connect with us on LinkedIn, Instagram, or Discord communities.</p>
+      </article>
+      </a>
+    </div>
+  </section>
+
+  <!-- Dashboard Preview Section -->
+  <section class="info-section fade-in" id="dashboard" aria-label="Dashboard Preview">
+    <h2 class="section-title">📊 Dashboard Preview</h2>
+    <div class="info-grid">
+      <article class="info-card">
+        <h3>🧠 Assessment Scores</h3>
+        <p>See your performance across communication, aptitude, and coding tests.</p>
+      </article>
+      <article class="info-card">
+        <h3>🏆 Readiness Display</h3>
+        <p>Your overall preparedness based on your profile and test results.</p>
+      </article>
+      <article class="info-card">
+        <h3>💼 Tier Suggestion</h3>
+        <p>Know which company tiers you're ready for — Product-based, Service-based, or Core.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>&copy; 2025 PrepMate | Built with ❤️ for Future Achievers</footer>
+
+  <!-- JS: Fade-in Animation -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    });
+
+    document.querySelectorAll(".fade-in").forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

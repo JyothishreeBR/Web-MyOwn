@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrepMate | Features</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 1.5rem 2rem;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: #4e54c8;
+    }
+
+    a {
+      text-decoration: none;
+      color: #4e54c8;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+      text-align: center;
+    }
+
+    .feature {
+      margin-bottom: 2rem;
+    }
+
+    .feature h3 {
+      font-size: 1.4rem;
+      color: #4e54c8;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CampusFit🎓</h1>
+    <a href="{{ url_for('home') }}">⬅ Back to Home</a>
+  </header>
+
+  <div class="container">
+    <h2>✨ Features That Make CampusFit Shine</h2>
+
+    <div class="feature">
+      <h3>📊 Intelligent Assessment</h3>
+      <p>We analyze your aptitude, coding, and communication skills through interactive tests to measure your placement readiness level.</p>
+    </div>
+
+    <div class="feature">
+      <h3>📄 Resume Analyzer</h3>
+      <p>Upload your resume to get automated feedback on structure, clarity, keyword density, and recommendations for improvement.</p>
+    </div>
+
+    <div class="feature">
+      <h3>🧠 Skill Insights</h3>
+      <p>Get a visual breakdown of your strengths and weaknesses, with personalized learning paths and resources to grow where it matters most.</p>
+    </div>
+
+    <div class="feature">
+      <h3>🏆 Placement Tier Suggestions</h3>
+      <p>Based on your scores and profile, we recommend whether you are best suited for product-based, service-based, or core companies.</p>
+    </div>
+
+    <div class="feature">
+      <h3>📈 Progress Tracker</h3>
+      <p>Track your improvements over time and see how close you are to your target readiness level with weekly reports and checkpoints.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 PrepMate. Crafted to empower the placement journey of every student.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusFit | Login / Signup</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav div {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #6a11cb;
+    }
+
+    .form-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 80px); /* Adjust height for navbar */
+    }
+
+    /*.form-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      width: 350px;
+      text-align: center;
+    }*/
+  .form-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: center;
+  margin-bottom: 1.5rem; /* Ensures space below form */
+  }
+
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.8rem;
+      border: none;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      color: white;
+      border-radius: 0.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 0.5rem;
+    }
+
+    button:hover {
+      background: linear-gradient(90deg, #5a67d8, #6b46c1);
+    }
+
+    .toggle-link {
+      margin-top: 1rem;
+      display: block;
+      color: #333;
+      font-size: 0.9rem;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    #emailField {
+      display: none;
+    }
+
+    .features-section {
+ margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  animation: fadeIn 1s ease-in-out 0.5s both;
+}
+
+.feature-bubble {
+  background: white;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-bubble:hover {
+  transform: translateY(-10px);
+}
+
+.feature-bubble h3 {
+  color: #5a189a;
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.feature-bubble p {
+  font-size: 0.85rem;
+  color: #333;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div>CampusFit 🎓</div>
+    <div><a href="{{ url_for('home') }}">⬅ Back to Home</a></div>
+  </nav>
+
+  <!-- Form -->
+  <div class="form-wrapper">
+    <div class="form-container">
+      <h2 id="formTitle">Login</h2>
+      <form method="POST" id="authForm">
+        <input type="text" name="username" placeholder="Username" required />
+        <input type="email" id="emailField" name="email" placeholder="Email (only for signup)" />
+        <input type="password" name="password" placeholder="Password" required />
+        <input type="hidden" name="action" id="actionInput" value="login" />
+        <button type="submit">Submit</button>
+      </form>
+      <span class="toggle-link" onclick="toggleForm()">Don't have an account? Sign up</span>
+    </div>
+  </div>
+ <!-- Add this after the form-container div -->
+<div class="features-section">
+  <div class="feature-bubble">
+    <h3>📊 Assessment</h3>
+    <p>Take aptitude, coding, and communication tests to evaluate your readiness.</p>
+  </div>
+  <div class="feature-bubble">
+    <h3>📈 Progress</h3>
+    <p>Track your skill improvement and get actionable feedback.</p>
+  </div>
+  <div class="feature-bubble">
+    <h3>🎯 Personalized</h3>
+    <p>Get tailored suggestions based on your scores and goals.</p>
+  </div>
+</div>
+
+
+  <!-- JS: Toggle Sign In/Up -->
+  <script>
+    let isSignup = false;
+    function toggleForm() {
+      const emailInput = document.getElementById("emailField");
+      const title = document.getElementById("formTitle");
+      const actionInput = document.getElementById("actionInput");
+      const toggleLink = document.querySelector(".toggle-link");
+
+      if (isSignup) {
+        emailInput.style.display = "none";
+        title.textContent = "Login";
+        actionInput.value = "login";
+        toggleLink.textContent = "Don't have an account? Sign up";
+      } else {
+        emailInput.style.display = "block";
+        title.textContent = "Sign Up";
+        actionInput.value = "signup";
+        toggleLink.textContent = "Already have an account? Login";
+      }
+
+      isSignup = !isSignup;
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!-- templates/result.html -->
+ <!-- <!DOCTYPE html> 
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Results</h1>
+    <p><strong>Placement Readiness:</strong> {{ placement_readiness }}</p>
+    <p><strong>Company Fit:</strong> {{ company_fit }}</p>
+    <a href="/">Go back</a>
+</body>
+</html>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Results | CampusFit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #f0f4ff, #ffffff);
+      color: #2d2d2d;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      background-color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .logo {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #6b54f1;
+    }
+
+    .nav-link {
+      color: #6b54f1;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .nav-link:hover {
+      background-color: #ece8ff;
+    }
+
+    main {
+      flex: 1;
+      max-width: 850px;
+      margin: 2rem auto;
+      padding: 2.5rem;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(107, 84, 241, 0.08);
+      text-align: center;
+      animation: fadeIn 0.6s ease-out;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(40px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    h1,h2 {
+      font-size: 2.3rem;
+      color: #6b54f1;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background-color: #f6f5ff;
+      border-left: 5px solid #6b54f1;
+      border-radius: 16px;
+      padding: 2rem;
+      width: 300px;
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.04);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .emoji {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .result-title {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .result-value {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2d2d2d;
+      margin-top: 0.4rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 2.5rem;
+      padding: 0.9rem 2rem;
+      background-color: #6b54f1;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #5844d0;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">CampusFit 🎓</div>
+    <a href="/dashboard" class="nav-link">🏠 Dashboard</a>
+
+  </nav>
+
+  <main>
+    <h1>🎉 Your Results Are Ready!</h1>
+
+    <div class="card-container">
+      <div class="card">
+        <div class="emoji">📚</div>
+        <div class="result-title">Placement Readiness</div>
+        <div class="result-value">{{ placement_readiness }}</div>
+      </div>
+      <div class="card">
+        <div class="emoji">🏢</div>
+        <div class="result-title">Company Fit</div>
+        <div class="result-value">{{ company_fit }}</div>
+      </div>
+    </div>
+    <div style="margin: 40px auto; width: 80%; background: #f8faff; padding: 25px; border-left: 6px solid #007bff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); font-family: 'Inter', sans-serif;">
+  <h2 style="color: #003366; margin-bottom: 15px;">📘 Personalized Suggestion</h2>
+  <p style="font-size: 16px; color: #2c2c2c; line-height: 1.6;">{{ suggestion }}</p>
+</div>
+
+
+
+    <a href="/" class="btn">🔁 Take Again</a>
+  </main>
+
+  <footer>
+    © 2025 CampusFit. Built for students, by students 
+  </footer>
+
+</body>
+</html>

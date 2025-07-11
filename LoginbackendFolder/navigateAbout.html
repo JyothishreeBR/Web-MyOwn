@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Placement Predictor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(135deg, #e0d7ff, #f7f3ff);
+      color: #2d2d2d;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    nav {
+      background-color: #5a47a1;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 15px rgba(90, 71, 161, 0.5);
+    }
+    nav .logo {
+      font-weight: 700;
+      font-size: 1.5rem;
+      user-select: none;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #b6a1ff;
+    }
+    main {
+      flex-grow: 1;
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem 2rem 4rem;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(90, 71, 161, 0.15);
+    }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #5a47a1;
+      margin-bottom: 1rem;
+      text-align: center;
+      user-select: none;
+    }
+    section {
+      margin-top: 2.5rem;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #45357c;
+      margin-bottom: 0.8rem;
+      user-select: none;
+    }
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #444;
+      margin-bottom: 1.5rem;
+      user-select: text;
+    }
+    ul.benefits-list {
+      list-style: none;
+      padding-left: 1.25rem;
+      margin: 0 0 1.5rem 0;
+    }
+    ul.benefits-list li {
+      font-size: 1.1rem;
+      margin-bottom: 0.7rem;
+      position: relative;
+      padding-left: 1.4rem;
+      user-select: text;
+    }
+    ul.benefits-list li::before {
+      content: "✔";
+      color: #6b54f1;
+      position: absolute;
+      left: 0;
+      font-weight: 700;
+      user-select: none;
+    }
+    .team {
+      font-style: italic;
+      color: #6b54f1;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 3rem;
+      user-select: none;
+    }
+    .cta {
+      display: block;
+      margin: 3rem auto 0;
+      max-width: 220px;
+      padding: 1rem 2rem;
+      background: linear-gradient(135deg, #6b54f1, #a77aff);
+      color: white;
+      font-weight: 700;
+      text-align: center;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(167, 122, 255, 0.5);
+      transition: all 0.3s ease;
+      user-select: none;
+    }
+    .cta:hover {
+      background: linear-gradient(135deg, #8458ff, #c591ff);
+      box-shadow: 0 15px 45px rgba(199, 150, 255, 0.7);
+      transform: translateY(-4px);
+      outline: none;
+    }
+
+    .cap{
+      font-size:4rem;
+      margin: 0;
+      text-align:center;
+    }
+    @media (max-width: 720px) {
+      main {
+        margin: 2rem 1rem;
+        padding: 1.5rem 1.5rem 3rem;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+  <main>
+    <h1>About CampusFit</h1>
+
+     
+    <section>
+      <h2>Our Purpose and Mission</h2>
+      <p>
+        Placement Predictor is designed to empower students to take charge of their career paths with confidence.
+        Using advanced machine learning algorithms, our tool analyzes your academic profile and skills to give personalized
+        feedback and actionable insights — helping you prepare effectively for campus placements and beyond.
+      </p>
+    </section>
+
+    <section>
+      <h2>working</h2>
+      <p>
+        Our ML model leverages data from thousands of student profiles and placement outcomes to assess your readiness.
+        By evaluating multiple factors like academics, projects, and skills, it provides a customized readiness score and highlights areas to improve.
+      </p>
+    </section>
+
+    <section>
+      <h2>Key Benefits</h2>
+      <ul class="benefits-list">
+        <li>Personalized, data-driven insights</li>
+        <li>Easy-to-use interface</li>
+        <li>Confidential and secure — your data stays private</li>
+        <li>Regular updates to improve prediction accuracy</li>
+      </ul>
+    </section>
+
+    <section class="team">
+      <p>"Placement Predictor is your partner in navigating the competitive placement landscape."</p>
+    </section>
+
+    <a href="{{ url_for('home') }}" class="cta" role="button"> ← Back to Home </a>
+  </main>
+
+</body>
+</html>
+
